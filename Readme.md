@@ -7,7 +7,7 @@ Problems you probably have with databases and SQLAlchemy:
 
 1. When you install sqlalchemy, restart the session to the jupyter notebook; otherwise it won't work.
 
-2. When you install psycopg2-binary on Linux, you may get errors about some packages that you have not installed. Watch these answers on [Stackoverflow](https://stackoverflow.com/questions/5420789/how-to-install-psycopg2-with-pip-on-python) or this video on [Youtube](https://www.youtube.com/watch?v=SM8YqCy2W8o) or copy the code in your terminal:
+2. When you install psycopg2 on Linux, you may get errors about some packages that you have not installed. Watch these answers on [Stackoverflow](https://stackoverflow.com/questions/5420789/how-to-install-psycopg2-with-pip-on-python) or this video on [Youtube](https://www.youtube.com/watch?v=SM8YqCy2W8o) or copy the code in your terminal:
 ~~~
 	sudo apt install gcc g++ build-essential
 	sudo apt install python3.8-dev libpq-dev
